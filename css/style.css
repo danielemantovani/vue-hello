@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+    padding: 20px;
+    font-size: 3rem;
+}
