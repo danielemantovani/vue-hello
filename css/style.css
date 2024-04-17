@@ -8,10 +8,38 @@ body{
     background-color: black;
 }
 
+.red-text{
+    color: red;
+}
+
 h1,
 h2,
 h3 {
-    color: red;
     padding: 20px;
     font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.guess-who, p {
+    font-size: 3rem;
+    color: white; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+button{
+    font-size: 2rem;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: red;
+}
+
+img {
+    width: 100%;
+
 }
