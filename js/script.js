@@ -9,8 +9,7 @@ createApp ({
             guessWho: "",
             wrong: "",
             colorText: "red-text",
-            image: "imgWTR.jpg",
-            showImage: false,
+            image: "",
         }
     },
     methods: {
@@ -19,11 +18,9 @@ createApp ({
         //     this.guessWho = ""
         // },
         toggleImage: function() {
-            this.showImage = !this.showImage;
+            this.image = "imgWTR.jpg"
             this.wrong = "SBAGLIATO, TI AVEVO AVVISATO DI NON FARLO";
             this.guessWho = "";
         }
-
     }
-
 }).mount("#app");

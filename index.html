@@ -17,13 +17,13 @@
         <h2 v-bind:class = "colorText">{{istruction}}</h2>
         <h3 v-bind:class = "colorText">{{question}}</h3>
         <div class="guess-who">
-            <label for="guess">Non indovinerai mai</label>
+            <label for="guess">Non indovinerai mai </label>
             <input type="text" id="guess" v-model="guessWho">
             <button @click="toggleImage">Ultima possibilità per andartene, NON PREMERE!!!</button>
             <p>{{wrong}}</p>
         </div>
         <div>
-            <img v-if="showImage" v-bind:src="image" :alt="">
+            <img v-bind:src="image" :alt="">
         </div>
         
     </div>
